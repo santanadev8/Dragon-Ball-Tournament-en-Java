@@ -55,22 +55,22 @@ Introduce una opción:
 4. **Ver torneo**:
    - Selecciona la opción 4 para ver el progreso y los resultados del torneo actual.
 
-# Clase Luchadores
+## Clase Luchadores
 
 Representa a un luchador con atributos como nombre, velocidad, ataque, defensa y salud.
 
-# Clase Batalla
+## Clase Batalla
 
 Representa una batalla entre dos luchadores. Se comparan las velocidades de los luchadores para determinar el orden de ataque y se calcula el daño de cada ataque.
 
-# Clase Torneo
+## Clase Torneo
 
 Gestiona la creación de torneos, la validación del número de luchadores y el progreso del torneo.
 
-# Clase RandomUtils
+## Clase RandomUtils
 
 Proporciona métodos utilitarios para generar números aleatorios y seleccionar elementos aleatorios de una lista.
 
-# Contribuciones
+## Contribuciones
 
 Las contribuciones son bienvenidas. Por favor, abre un issue o un pull request para discutir cualquier cambio que te gustaría hacer. Ten en cuenta que soy estudiante de segundo curso en Ingenieria Informatica y soy consciente de que el codigo puede ser muy mejorable.

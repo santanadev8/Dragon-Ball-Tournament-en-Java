@@ -159,7 +159,7 @@ public class App {
                 // El defensor es golpeado
                 if (defensor.getDefensa() > defensor.getAtaque()) {
                     System.out.println(defensor.getNombre() + " fue golpeado!");
-                    int nuevaSalud = defensor.getSalud() - ((ataque * 10) / 100);
+                    int nuevaSalud = defensor.getSalud() - ((atacante.getAtaque() * 10) / 100);
                     defensor.setSalud(Math.max(nuevaSalud, 0)); // Asegurarse de que la salud no sea menor que 0
                 } else {
                     System.out.println(defensor.getNombre() + " fue golpeado!");
@@ -170,6 +170,12 @@ public class App {
                 // El defensor esquiva el ataque
                 System.out.println(defensor.getNombre() + " esquivó el ataque!");
             }
+            // Pausar la ejecución para mostrar los mensajes más lentamente
+            try {
+                Thread.sleep(1000); // Pausa de 1 segundo (1000 milisegundos) para poder ver mejor los combates.
+            } catch (InterruptedException e) {
+                Thread.currentThread().interrupt();
+    }
         }
     }
 
